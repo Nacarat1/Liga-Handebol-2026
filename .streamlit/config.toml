@@ -1,0 +1,9 @@
+[theme]
+# Força o tema claro
+base="light"
+
+# (Opcional) Você pode até forçar as cores exatas da liga aqui
+primaryColor="#e67e22"
+backgroundColor="#ffffff"
+secondaryBackgroundColor="#f5f5f5"
+textColor="#000000"
