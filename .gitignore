@@ -1,0 +1,18 @@
+# Pastas temporárias do Python (não devem ir para o GitHub)
+__pycache__/
+*.pyc
+
+# Arquivos de sistema e ambiente virtual
+.env
+venv/
+.vscode/
+
+# Arquivos de mídia e PDF que ocupam muito espaço
+# (Como você já usa links do Imgur/Drive, não precisa dessas cópias locais)
+oUTROS/
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*.mp4
+*.zip
