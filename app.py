@@ -6,7 +6,12 @@ import style
 # ============================================================
 # 1. SETUP DA PÁGINA
 # ============================================================
-st.set_page_config(page_title="Liga Sul Fluminense", layout="centered")
+st.set_page_config(page_title="Liga Sul Fluminense", layout="centered",
+        menu_items={
+        'Get Help': None,
+        'Report a bug': None,
+        'About': None
+    })
 
 # URLs DE CONFIGURAÇÃO
 URL_CONFIG = "https://docs.google.com/spreadsheets/d/e/2PACX-1vQQW80Fgo-XoW6u5KZ9jIlAEL1q0CYEn7mHo0dAjLc0ZJ5dISZXgEiVo3QIRQdu2Dia-CyOmkB2x6ZR/pub?gid=1515802752&single=true&output=csv"
